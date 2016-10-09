@@ -12,3 +12,10 @@ function isPalindrome(str) {
 
 console.log(isPalindrome('poop'));
 console.log(isPalindrome('massive poop'));
+
+function isPalindromeBuiltIn(str) {
+  return str === str.split('').reverse().join('');
+}
+
+console.log(isPalindromeBuiltIn('poop'));
+console.log(isPalindromeBuiltIn('massive poop'));
